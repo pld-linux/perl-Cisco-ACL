@@ -1,5 +1,3 @@
-# ToDo:
-# - verify pl description
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
@@ -9,7 +7,7 @@
 %define	pnam	ACL
 Summary:	Generate Access Control Lists for Cisco IOS
 Summary(pl):	Generowanie List Kontroli Dostêpu (ACL) dla Cisco IOS
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-Cisco-ACL
 Version:	0.11
 Release:	1
 # same as perl
@@ -28,7 +26,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Cisco::ACL is a module to create cisco-style access lists. IOS uses a
+Cisco::ACL is a module to create Cisco-style access lists. IOS uses a
 wildcard syntax that is almost but not entirely unlike netmasks, but
 backwards (at least that's how it has always seemed to me).
 
@@ -37,8 +35,8 @@ access lists.
 
 %description -l pl
 Cisco::ACL jest modu³em do tworzenia list kontroli dostêpu (ACL) w
-stylu cisco. IOS u¿ywa sk³adni znaków globalnych, która jest
-praktycznie taka sama jak maski sieci, ale "odwrócona".
+stylu Cisco. IOS u¿ywa sk³adni znaków globalnych, która jest
+prawie taka sama jak maski sieci, ale "odwrócona".
 
 Dziêki temu modu³owi mo¿liwe jest my¶lenie w CIDR, ale tworzenie
 kompatybilnych z IOS list ACL.
