@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Cisco
-%define	pnam	ACL
+%define		pdir	Cisco
+%define		pnam	ACL
 Summary:	Generate Access Control Lists for Cisco IOS
 Summary(pl):	Generowanie List Kontroli Dostêpu (ACL) dla Cisco IOS
 Name:		perl-Cisco-ACL
