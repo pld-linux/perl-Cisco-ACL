@@ -1,5 +1,5 @@
 # ToDo:
-# - pl description
+# - verify pl description
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
@@ -32,7 +32,17 @@ Cisco::ACL is a module to create cisco-style access lists. IOS uses a
 wildcard syntax that is almost but not entirely unlike netmasks, but
 backwards (at least that's how it has always seemed to me).
 
-This module makes it easy to think in CIDR but emit IOS-compatible access lists.
+This module makes it easy to think in CIDR but emit IOS-compatible
+access lists.
+
+%description -l pl
+Cisco::ACL jest modu³em do tworzenia list kontroli dostêpu (ACL) w
+stylu cisco. IOS u¿ywa sk³adni znaków globalnych, która jest
+praktycznie taka sama jak maski sieci, ale "odwrócona".
+
+Dziêki temu modu³owi mo¿liwe jest my¶lenie w CIDR, ale tworzenie
+kompatybilnych z IOS list ACL.
+
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
