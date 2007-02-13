@@ -6,7 +6,7 @@
 %define		pdir	Cisco
 %define		pnam	ACL
 Summary:	Generate Access Control Lists for Cisco IOS
-Summary(pl.UTF-8):   Generowanie List Kontroli Dostępu (ACL) dla Cisco IOS
+Summary(pl.UTF-8):	Generowanie List Kontroli Dostępu (ACL) dla Cisco IOS
 Name:		perl-Cisco-ACL
 Version:	0.12
 Release:	1
