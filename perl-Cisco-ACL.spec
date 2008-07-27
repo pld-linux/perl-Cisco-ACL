@@ -9,7 +9,7 @@ Summary:	Generate Access Control Lists for Cisco IOS
 Summary(pl.UTF-8):	Generowanie List Kontroli Dostępu (ACL) dla Cisco IOS
 Name:		perl-Cisco-ACL
 Version:	0.12
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
