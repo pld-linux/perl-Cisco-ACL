@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Cisco
 %define		pnam	ACL
 Summary:	Generate Access Control Lists for Cisco IOS
